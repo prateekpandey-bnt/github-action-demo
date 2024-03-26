@@ -11,7 +11,7 @@ public class GithubActionDemoApplication {
 	
 	@GetMapping("/welcome")
 	public String welcome() {
-		return "This is github action demo project for BNTSOFT PVT LTD!!";
+		return "This is github action demo project!!";
 		
 	}
 	public static void main(String[] args) {
